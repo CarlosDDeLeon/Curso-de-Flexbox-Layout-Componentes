@@ -1,10 +1,13 @@
-:root {
+/* Autor: Carlos D
+    Fecha: Enero 17 2022 */
+
+:root {         /* Primero debemos agregar los colores esenciales para el proyecto en manera de variable */
     --darkColor: #04001e;
     --lightColor: #DFFBFF;
     --primaryColor: #DB086F;
 }
 
-body {
+body {          /* Configurar Body */
     background: var(--darkColor);
     color: var(--lightColor);
     font-family: system-ui;
